@@ -16,6 +16,7 @@
 		43F846BA17015B22000220FA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 43F846B917015B22000220FA /* Default.png */; };
 		43F846BC17015B22000220FA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 43F846BB17015B22000220FA /* Default@2x.png */; };
 		43F846BE17015B22000220FA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 43F846BD17015B22000220FA /* Default-568h@2x.png */; };
+		43F846CB17015BDA000220FA /* HorizontalScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F846CA17015BDA000220FA /* HorizontalScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		43F846B917015B22000220FA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		43F846BB17015B22000220FA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		43F846BD17015B22000220FA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		43F846C917015BDA000220FA /* HorizontalScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HorizontalScrollView.h; path = HorizontalScrollView/HorizontalScrollView.h; sourceTree = "<group>"; };
+		43F846CA17015BDA000220FA /* HorizontalScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HorizontalScrollView.m; path = HorizontalScrollView/HorizontalScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +54,7 @@
 		43F8469B17015B21000220FA = {
 			isa = PBXGroup;
 			children = (
+				43F846C817015BAE000220FA /* HorizontalScrollView */,
 				43F846AD17015B22000220FA /* HorizontalScrollViewDemo */,
 				43F846A617015B21000220FA /* Frameworks */,
 				43F846A517015B21000220FA /* Products */,
@@ -97,6 +101,15 @@
 				43F846BD17015B22000220FA /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		43F846C817015BAE000220FA /* HorizontalScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				43F846C917015BDA000220FA /* HorizontalScrollView.h */,
+				43F846CA17015BDA000220FA /* HorizontalScrollView.m */,
+			);
+			name = HorizontalScrollView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,6 +179,7 @@
 			files = (
 				43F846B417015B22000220FA /* main.m in Sources */,
 				43F846B817015B22000220FA /* AppDelegate.m in Sources */,
+				43F846CB17015BDA000220FA /* HorizontalScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +294,7 @@
 				43F846C317015B22000220FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
