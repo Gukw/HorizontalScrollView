@@ -30,8 +30,8 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
 	// Do any additional setup after loading the view.
-//    _horiView =  [[HorizontalScrollView alloc] initWithFrame:CGRectMake(0, 0, 320, 460) withRow:5];
-    _horiView = [[HorizontalScrollView alloc] initWithFrame:CGRectMake(0, 0, 320, 460)];
+    _horiView =  [[HorizontalScrollView alloc] initWithFrame:CGRectMake(0, 0, 320, 460) withRow:5];
+//    _horiView = [[HorizontalScrollView alloc] initWithFrame:CGRectMake(0, 0, 320, 460)];
     _horiView.delegate = self;
     _horiView.delegateHorizontal = self;
     [self.view addSubview:_horiView];
