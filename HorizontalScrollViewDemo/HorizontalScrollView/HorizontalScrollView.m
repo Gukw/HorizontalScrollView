@@ -54,6 +54,7 @@
     frameLeft.size.height = heightCell;
     frameRight.size.width = widthCell;
     frameRight.size.height = heightCell;
+    frameRight.origin.x = widthCell;
     viewLeft.frame = frameLeft;
     viewRight.frame = frameRight;
     NSInteger num = [_delegateHorizontal numbersOfRowsInHorizontalScrollView:self];
